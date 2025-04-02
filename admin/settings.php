@@ -151,6 +151,7 @@ if ($result->num_rows > 0) {
             <li><a href="weekly_deals.php"><i class="fas fa-calendar-week"></i> Тижневі знижки</a></li>
             <li><a href="welcome_section.php"><i class="fas fa-home"></i> Вітальна секція</a></li>
             <li><a href="seasonal_promo.php"><i class="fas fa-percentage"></i> Сезонна акція</a></li>
+            <li><a href="store_info.php"><i class="fas fa-store"></i> Інформація про магазин</a></li>
             <li><a href="subscribers.php"><i class="fas fa-users"></i> Підписники</a></li>
             <li class="active"><a href="settings.php"><i class="fas fa-cog"></i> Налаштування</a></li>
             <li><a href="dashboard.php?logout=1"><i class="fas fa-sign-out-alt"></i> Вийти</a></li>
@@ -160,7 +161,7 @@ if ($result->num_rows > 0) {
 
 <div class="admin-content">
     <header>
-        <h1>Налаштування</h1>
+        <h1>Нала��тування</h1>
         <div class="user-info">
             <span>Вітаємо, Адміністратор</span>
             <a href="dashboard.php?logout=1" class="logout-btn"><i class="fas fa-sign-out-alt"></i> Вийти</a>
