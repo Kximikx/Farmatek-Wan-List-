@@ -75,13 +75,13 @@ section {
 
 /* Header Styles */
 header {
-  background-color: #4f4d4d;
+  background-color: rgb(65, 63, 63);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   padding: 15px 0;
   position: fixed;
+  color: #f9f9f9;
   width: 100%;
   z-index: 1000;
-  color: #f9f9f9;
 }
 
 header .container {
@@ -291,7 +291,6 @@ header .container {
   font-size: 0.9rem;
   color: #666;
   margin-bottom: 15px;
-  font-style: italic;
 }
 
 /* Seasonal Promo Section */
@@ -368,7 +367,6 @@ header .container {
   font-size: 0.9rem;
   color: #666;
   margin-top: 15px;
-  font-style: italic;
 }
 
 /* Loyalty Program Section */
@@ -408,7 +406,6 @@ header .container {
 }
 
 .loyalty-note {
-  font-style: italic;
   color: #666;
   margin-bottom: 30px;
 }
@@ -585,6 +582,31 @@ footer {
   text-align: center;
   padding-top: 20px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Додайте цей стиль, щоб перевизначити курсив для всіх елементів */
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+div,
+a,
+button {
+  font-style: normal !important;
+}
+
+/* Якщо є конкретні класи з курсивом, також перевизначте їх */
+.welcome-text p,
+.offer-valid,
+.deal-note,
+.promo-details,
+.loyalty-note {
+  font-style: normal !important;
 }
 
 /* Responsive Styles */

@@ -83,7 +83,7 @@ if ($conn->query($sql) === TRUE) {
 $seasonal_promo = [
   'title' => 'Сезонне полегшення алергії',
   'subtitle' => 'Купи 2 отримай 1 БЕЗКОШТОВНО на всі протиалергічні препарати',
-  'description' => 'Не дозволяйте сезонній алергії сповільнювати вас. Відвідайте нашу аптеку, щоб скористатися цією спеціальною пропозицією!',
+  'description' => 'Не дозволяйте сезонній алерг��ї сповільнювати вас. Відвідайте нашу аптеку, щоб скористатися цією спеціальною пропозицією!',
   'note' => 'Пропозиція дійсна тільки в магазині. Не може поєднуватися з іншими знижками.',
   'button_text' => 'Знайти наше розташування',
   'background_image' => 'https://source.unsplash.com/random/1600x900/?spring'
@@ -133,6 +133,7 @@ if ($table_exists) {
             <li><a href="weekly_deals.php"><i class="fas fa-calendar-week"></i> Тижневі знижки</a></li>
             <li><a href="welcome_section.php"><i class="fas fa-home"></i> Вітальна секція</a></li>
             <li class="active"><a href="seasonal_promo.php"><i class="fas fa-percentage"></i> Сезонна акція</a></li>
+            <li><a href="store_info.php"><i class="fas fa-store"></i> Інформація про магазин</a></li>
             <li><a href="subscribers.php"><i class="fas fa-users"></i> Підписники</a></li>
             <li><a href="settings.php"><i class="fas fa-cog"></i> Налаштування</a></li>
             <li><a href="dashboard.php?logout=1"><i class="fas fa-sign-out-alt"></i> Вийти</a></li>

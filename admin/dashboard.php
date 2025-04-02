@@ -44,6 +44,7 @@ $result = $conn->query($sql);
             <li><a href="weekly_deals.php"><i class="fas fa-calendar-week"></i> Тижневі знижки</a></li>
             <li><a href="welcome_section.php"><i class="fas fa-home"></i> Вітальна секція</a></li>
             <li><a href="seasonal_promo.php"><i class="fas fa-percentage"></i> Сезонна акція</a></li>
+            <li><a href="store_info.php"><i class="fas fa-store"></i> Інформація про магазин</a></li>
             <li><a href="subscribers.php"><i class="fas fa-users"></i> Підписники</a></li>
             <li><a href="logo_settings.php"><i class="fas fa-image"></i> Логотип</a></li>
             <li><a href="?logout=1"><i class="fas fa-sign-out-alt"></i> Вийти</a></li>
@@ -107,10 +108,10 @@ $result = $conn->query($sql);
             </div>
         </div>
         <div class="stat-card">
-            <i class="fas fa-image"></i>
+            <i class="fas fa-store"></i>
             <div class="stat-info">
-                <h3>Логотип</h3>
-                <p><a href="logo_settings.php" style="color: #2c7873; text-decoration: underline;">Змінити</a></p>
+                <h3>Інформація про магазин</h3>
+                <p><a href="store_info.php" style="color: #2c7873; text-decoration: underline;">Редагувати</a></p>
             </div>
         </div>
     </div>
