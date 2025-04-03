@@ -67,7 +67,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         
         $stmt->close();
     } else {
-        $error_message = "Помилка створення таблиці налаштувань: " . $conn->error;
+        $error_message = "Помилка ство��ення таблиці налаштувань: " . $conn->error;
     }
 }
 
@@ -111,6 +111,7 @@ if ($table_exists) {
             <li><a href="weekly_deals.php"><i class="fas fa-calendar-week"></i> Тижневі знижки</a></li>
             <li><a href="welcome_section.php"><i class="fas fa-home"></i> Вітальна секція</a></li>
             <li><a href="seasonal_promo.php"><i class="fas fa-percentage"></i> Сезонна акція</a></li>
+            <li><a href="store_info.php"><i class="fas fa-store"></i> Інформація про магазин</a></li>
             <li><a href="subscribers.php"><i class="fas fa-users"></i> Підписники</a></li>
             <li class="active"><a href="logo_settings.php"><i class="fas fa-image"></i> Логотип</a></li>
             <li><a href="dashboard.php?logout=1"><i class="fas fa-sign-out-alt"></i> Вийти</a></li>

@@ -1,0 +1,12 @@
+# Включити відображення помилок
+php_flag display_errors on
+php_value error_reporting E_ALL
+
+# Встановити версію PHP (якщо хостинг підтримує)
+# AddHandler application/x-httpd-php74 .php
+
+# Перенаправлення з HTTP на HTTPS (якщо потрібно)
+# RewriteEngine On
+# RewriteCond %{HTTPS} off
+# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+

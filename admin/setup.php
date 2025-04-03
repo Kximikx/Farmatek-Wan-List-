@@ -1,8 +1,8 @@
 <?php
 // Database configuration
-$servername = "localhost";
-$username = "root";  // Change to your database username
-$password = "";      // Change to your database password
+$servername = "sql312.infinityfree.com"; // Змінено з localhost на адресу сервера InfinityFree
+$username = "if0_38649041";  // Ваш логін до бази даних
+$password = "nhGCo8Rq2AsmRh";  // Ваш пароль до бази даних
 
 // Create connection
 $conn = new mysqli($servername, $username, $password);
@@ -13,7 +13,7 @@ die("Connection failed: " . $conn->connect_error);
 }
 
 // Create database
-$sql = "CREATE DATABASE IF NOT EXISTS farmatek";
+$sql = "CREATE DATABASE IF NOT EXISTS if0_38649041_farmatek";
 if ($conn->query($sql) === TRUE) {
 echo "База даних успішно створена<br>";
 } else {
@@ -21,7 +21,7 @@ echo "Помилка створення бази даних: " . $conn->error . 
 }
 
 // Select the database
-$conn->select_db("farmatek");
+$conn->select_db("if0_38649041_farmatek");
 
 // Create promotions table
 $sql = "CREATE TABLE IF NOT EXISTS promotions (

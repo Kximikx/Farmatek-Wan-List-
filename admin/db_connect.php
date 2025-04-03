@@ -1,6 +1,6 @@
 <?php
 // Database configuration
-$servername = "localhost";
+$servername = "sql210.infinityfree.com";
 $username = "if0_38649041";  // Change to your database username
 $password = "nhGCo8Rq2AsmRh";      // Change to your database password
 $dbname = "if0_38649041_farmatek";

@@ -25,7 +25,7 @@ if ($current_password === "farmatek123") {
         $password_success = "Пароль успішно змінено! Будь ласка, оновіть пароль у файлі index.php.";
         
         // Instructions for manual update
-        $update_instructions = "Щоб завершити зміну пароля, будь ласка, вручну оновіть пароль у файлі admin/index.php, рядок 11.";
+        $update_instructions = "Щоб завершити зміну пароля, будь ��аска, вручну оновіть пароль у файлі admin/index.php, рядок 11.";
     } else {
         $password_error = "Нові паролі не співпадають.";
     }
@@ -161,7 +161,7 @@ if ($result->num_rows > 0) {
 
 <div class="admin-content">
     <header>
-        <h1>Нала��тування</h1>
+        <h1>Налаштування</h1>
         <div class="user-info">
             <span>Вітаємо, Адміністратор</span>
             <a href="dashboard.php?logout=1" class="logout-btn"><i class="fas fa-sign-out-alt"></i> Вийти</a>
