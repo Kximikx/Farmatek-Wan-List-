@@ -178,6 +178,7 @@ if ($table_exists) {
   <title>Farmatek Адмін - Інформація про магазин</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="admin-style.css">
+  <link rel="stylesheet" href="admin-pages.css">
 </head>
 <body>
 <div class="admin-sidebar">
@@ -343,90 +344,6 @@ if ($table_exists) {
       </div>
   </div>
 </div>
-
-<style>
-  .form-section-title {
-      margin-top: 30px;
-      margin-bottom: 15px;
-      padding-bottom: 10px;
-      border-bottom: 1px solid #eee;
-      color: #2c7873;
-  }
-  
-  .preview-container {
-      background-color: #f9f9f9;
-      border-radius: 10px;
-      padding: 30px;
-  }
-  
-  .preview-title {
-      text-align: center;
-      color: #2c7873;
-      margin-bottom: 10px;
-  }
-  
-  .preview-subtitle {
-      text-align: center;
-      color: #666;
-      margin-bottom: 30px;
-  }
-  
-  .store-preview {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 30px;
-  }
-  
-  .map-placeholder {
-      background-color: #e9e9e9;
-      height: 300px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      border-radius: 10px;
-      color: #666;
-      text-align: center;
-      padding: 20px;
-  }
-  
-  .info-preview {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 20px;
-  }
-  
-  .info-card-preview {
-      background-color: white;
-      border-radius: 10px;
-      padding: 20px;
-      text-align: center;
-      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-  }
-  
-  .info-card-preview i {
-      font-size: 2rem;
-      color: #52de97;
-      margin-bottom: 15px;
-  }
-  
-  .info-card-preview h3 {
-      color: #2c7873;
-      margin-bottom: 10px;
-  }
-  
-  @media (max-width: 992px) {
-      .store-preview {
-          grid-template-columns: 1fr;
-      }
-  }
-  
-  @media (max-width: 768px) {
-      .info-preview {
-          grid-template-columns: 1fr;
-      }
-  }
-</style>
 </body>
 </html>
 
